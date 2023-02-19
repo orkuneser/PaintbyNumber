@@ -17,8 +17,8 @@ public class Painter : MonoBehaviour
 
     private void Start()
     {
-        selectedColor = Color.green;
-        selectedNumber = 1;
+        selectedColor = Color.white;
+        selectedNumber = 0;
         EventManager.OnSelectColor.Invoke();
     }
 }
